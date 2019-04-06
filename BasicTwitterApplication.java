@@ -40,7 +40,7 @@ public class BasicTwitterApplication
 	                
 			if (tell==1)
 	                {
-	                 
+	                    
 	                    List<Status> status = twitter.getHomeTimeline(); 
 	                    for (Status st : status)
 	                    {
@@ -49,7 +49,7 @@ public class BasicTwitterApplication
 	                    }
 	                    System.out.println("\n\n\n");
 	                }
-			
+			/*Twitter.get****Timeline() returns a List of latest tweets from user's home timeline.*/
 			if (tell==2)
 	                {
 	                    System.out.println("Enter the twitter id of the user (without @) : ");
@@ -82,6 +82,7 @@ public class BasicTwitterApplication
 	        
 		System.out.println("\n\n\nEnter the tweet you like to post as status : ");
 		String tweetstatus = scan.next();
+	        /*twitter.updateStatus() method is used to post a tweet*/
 		twitter.updateStatus(tweetstatus);	
 		System.out.println("---Status posted successfully!---");
 
@@ -104,6 +105,7 @@ public class BasicTwitterApplication
 			
 		System.out.println("\n\n\nEnter keywords to search :\n(Include # to search for hashtag keywords)\n");
 		String querysearch = scan.next();
+	  	/*Search for Tweets using Query class and Twitter.search(twitter4j.Query) method*/
 	        Query query = new Query(querysearch);
 	        QueryResult result;
 	        do 
@@ -123,7 +125,7 @@ public class BasicTwitterApplication
 		String directMessage= scan.next();
 		System.out.println("\nType in the twitter handle name of the follower to whom you wish to send the message (without @ symbol): ");
 		String twitterName = scan.next();
-			
+		/*Send and receive direct messages via Twitter.sendDirectMessage() /Twitter.getDirectMessages()*/	
 		twitter.sendDirectMessage(twitterName, directMessage);
 		System.out.println("---Message Sent Successfully!---"); 
 			
