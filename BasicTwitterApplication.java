@@ -100,7 +100,7 @@ public class BasicTwitterApplication
 		}
 		System.out.println("---Status deleted successfully!---");
 			
-		/*No.4 Send personal messages to the follower*/
+		/*No.4 Search tweets using Keywords*/
 			
 		System.out.println("\n\n\nEnter keywords to search :\n(Include # to search for hashtag keywords)\n");
 		String querysearch = scan.next();
@@ -117,7 +117,7 @@ public class BasicTwitterApplication
 	         } while ((query = result.nextQuery()) != null);
 	         System.out.println("---Search complete!---");
 	       
-			/*No.5 Search tweets using Keywords*/
+			/*No.5 Send personal messages to the follower*/
 			
 		System.out.println("\nEnter any text message that you wish to send : ");
 		String directMessage= scan.next();
