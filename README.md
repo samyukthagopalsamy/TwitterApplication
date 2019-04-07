@@ -1,4 +1,4 @@
-# TwitterAPI
+## TwitterAPI
 Java application to access twitter account using twitter API.
 
 
@@ -18,5 +18,10 @@ Java application to access twitter account using twitter API.
 •	List the friends and followers of the user.
 •	Display the trends on Twitter for a specific WOEID(Where On Earth Identifier) 
 
-OUTPUT
+# OUTPUT
+
 ![output1](https://user-images.githubusercontent.com/38600655/55679769-bd408280-592e-11e9-90ac-da60af8820bc.png)
+
+
+![output2](https://user-images.githubusercontent.com/38600655/55679789-15778480-592f-11e9-854c-134d15f278e0.png)
+
