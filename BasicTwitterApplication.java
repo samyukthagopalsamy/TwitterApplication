@@ -37,6 +37,7 @@ public class BasicTwitterApplication
 	        /*No.1  Display the Twitter Timeline of the user*/
 	        
 	        System.out.println("Type 1 for current user's home timeline and 2 for other user's Timeline :");
+	        /*The other user can be any valid twitter account */
 	        int tell = scan.nextInt();
 	                
 			if (tell==1)
@@ -60,10 +61,10 @@ public class BasicTwitterApplication
 	                    {
 	                    		System.out.println(st.getUser().getName() + "--------" +st.getId() + "--------" + st.getText());
 	                    }
-	                    System.out.println("\n\n\n");
+	                    System.out.println("\n\n");
 	                }
 			
-		/*No.2 Get the Trends on Twitter based on user input WOEID (Where On Earth Identifier*/
+		/*No.2 Get the Trends on Twitter based on user input WOEID (Where On Earth Identifier)*/
 
 		System.out.println("Enter a valid WOEID to get the trending hashtags in that area : ");
 		int woeid = scan.nextInt();
@@ -115,7 +116,7 @@ public class BasicTwitterApplication
 	         	List<Status> tweets = result.getTweets();
 	            	for (Status tweet : tweets) 
 	            	{
-	                	System.out.println(tweet.getUser().getScreenName() + " - " + tweet.getText() + "\n\n\n"); 
+	                	System.out.println(tweet.getUser().getScreenName() + " - " + tweet.getText() + "\n\n"); 
 	            	}
 	         } while ((query = result.nextQuery()) != null);
 	         System.out.println("---Search complete!---");
