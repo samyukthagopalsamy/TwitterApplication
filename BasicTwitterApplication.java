@@ -18,7 +18,8 @@ import twitter4j.User;
 public class BasicTwitterApplication 
 {
   public static void main(String[] args) throws TwitterException
-	{
+	{      
+	     /* ConfigurationBuilder class is used to configure Twitter4J programatically*/
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		
 		   cb.setDebugEnabled(true)
