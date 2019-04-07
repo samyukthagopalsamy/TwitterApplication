@@ -11,12 +11,13 @@ Java application to access twitter account using twitter API.
 6)	In the Java project, all the required twitter4j classes such as ConfigurationBuild, TwitterFactory, Twitter, Status, Query, Trends, IDs, User, etc are imported and the following can be performed.
 
 (‘ user’ refers to the twitter account used to generate the access tokens.)
-•	Display of twitter timeline of the user or any other twitter account.
-•	Post or delete a status to the user timeline.
-•	Send personal messages to the followers of the account.
-•	Search for tweets using keywords.
-•	List the friends and followers of the user.
-•	Display the trends on Twitter for a specific WOEID(Where On Earth Identifier) 
+1)	Display of twitter timeline of the user or any other twitter account.
+2)  Display the trends on Twitter for a specific WOEID(Where On Earth Identifier)
+3)	Post or delete a status to the user timeline.
+4)	Send personal messages to the followers of the account.
+5)	Search for tweets using keywords.
+6)	List the friends and followers of the user.
+	 
 
  OUTPUT
 
