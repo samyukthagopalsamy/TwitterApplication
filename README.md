@@ -17,3 +17,6 @@ Java application to access twitter account using twitter API.
 •	Search for tweets using keywords.
 •	List the friends and followers of the user.
 •	Display the trends on Twitter for a specific WOEID(Where On Earth Identifier) 
+
+OUTPUT
+![output1](https://user-images.githubusercontent.com/38600655/55679769-bd408280-592e-11e9-90ac-da60af8820bc.png)
