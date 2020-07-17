@@ -1,4 +1,4 @@
-## TwitterAPI
+## Twitter data extraction
 Java application to access twitter account using twitter API.
 
 
